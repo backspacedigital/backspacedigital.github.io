@@ -1,0 +1,77 @@
+<!-- Container (Pricing Section) -->
+	<!-- <div id="pricing" class="container-fluid bg-grey">
+		<div class="text-center">
+			<h2>Pricing</h2>
+			<h4>Streamlined solutions for start ups and small businesses</h4>
+		</div>
+		<div class="row slideanim">
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>One Page Website</h1>
+						<h4>Ideal for a startup or micro business</h4>
+					</div>
+					<div class="panel-body">
+						<p>1 page responsive site</p>
+						<p>Basic SEO and Analytics package</p>
+						<p>Email newsletter setup</p>
+						<p>Free hosting (no recurring fee)</p>
+						<p>Includes basic graphic design</p>
+						<p>Includes basic copywriting</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+					</div>
+					<div class="panel-footer">
+						<del><strike>&pound;197</strike></del>
+						<ins>&pound;147</ins>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Multiple Page Website &amp; CMS</h1>
+						<h4>Perfect for a small business</h4>
+					</div>
+					<div class="panel-body">
+						<p>Multiple page responsive site</p>
+						<p>CMS system to easily edit your pages</p>
+						<p>Basic SEO and Analytics package</p>
+						<p>Email newsletter setup</p>
+						<p>Paid hosting (excluded from price)</p>
+						<p>Includes basic graphic design</p>
+						<p>Includes basic copywriting</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+					</div>
+					<div class="panel-footer">
+						<del><strike>&pound;347</strike></del>
+						<ins>&pound;297</ins>
+						</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Bespoke</h1>
+						<h4>Customised options for unique situations</h4>
+					</div>
+					<div class="panel-body">
+						<p>Building upon the One Page and Multiple Page options:</p>
+						<p>CMS integrations using third-party plugins and services</p>
+						<p>Ecommerce shop setup</p>
+						<p>Advanced SEO services</p>
+						<p>Conversion Rate Optimization (CRO)</p>
+						<p>Training and ongoing support</p>
+						<p>Content marketing strategy</p>
+						<p>Advanced graphic design</p>
+						<p>Advanced copywriting</p>
+					</div>
+					<div class="panel-footer">
+						<h3>Contact us for bespoke pricing</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
