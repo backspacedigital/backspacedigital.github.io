@@ -18,72 +18,75 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
+					<span class="icon-bar"></span>
 				</button>
 				<!-- <a class="navbar-brand" href="#myPage">Logo</a> -->
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#top">ABOUT</a></li>
-					<li><a href="#services">SERVICES</a></li>					
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#services">SERVICES</a></li>
 					<li><a href="#contact">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>	
 
-	<header class="bg-yellow table min-h100 vh-100">
-		<div class="table-cell px2 center">
-			<h1>Hello. We are <span>Backspace Digital</span>.<br />
-				A small digital design studio in Suffolk.<br />
-				Specialising in <a href="#services">web design and development</a>.
+	<!-- Intro Section -->
+	<header id="about" class="bg-blue table min-h100 vh-100">
+		<div class="container-fluid table-cell text-center">
+			<h1>We are <span>Backspace Digital</span>.<br />
+				A design and marketing studio.<br />
+				We create <a href="#services">business-driven</a> websites.
 			</h1>				
 		</div>		
-	</header>
+	</header>	
 
-	<!-- Container (Services Section) -->
+	<!-- Services Section -->
 	<div id="services" class="container-fluid text-center">
 		<h2>SERVICES</h2>
-		<h4><a href="#contact">Contact us</a> to start benefiting from our digital services:</h4>
+		<h4>Business-driven websites should not only look pretty but should also work hard to capture leads, make sales, and spread your brand.</h4>
 		<br>
 		<div class="row slideanim">
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-off logo-small"></span>
-				<h4>Website Design &amp; Development</h4>
-				<p>Your responsive website will look great and be easy to use on desktop computers, tablets and mobile phones.</p>
+				<span class="glyphicon glyphicon-phone logo-small"></span>
+				<h4>Responsive Website Design &amp; Development</h4>
+				<p>Elegant websites that are not only easy for your customers to use on desktop computers, tablets and mobile phones, but also easy for you to keep updated with fresh content using a CMS.</p>
 			</div>
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-heart logo-small"></span>
-				<h4>Graphic Design</h4>
-				<p>Your visual messaging will engage your audience by clearly and compellingly communicating the value of your offerings.</p>
+				<h4>Visual Design &amp; Branding</h4>
+				<p>Visual messages that not only make an impact but also engage your customers over the long term with a clear and compelling vision of what they can achieve by using your offering.</p>
 			</div>
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-lock logo-small"></span>
-				<h4>Social Media</h4>
-				<p>Your site will be linked to your social media accounts where you can begin converting your followers into customers.</p>
-			</div>
+				<span class="glyphicon glyphicon-comment logo-small"></span>
+				<h4>Content Strategy &amp; Creation</h4>
+				<p>Keep your customers engaged by knowing what to say, how to say it, and where to say it, whether in email newsletters, website articles and blogs, or social media updates, tweets and hashtags.</p>
+			</div>			
 		</div>
 		<br><br>
 		<div class="row slideanim">
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-leaf logo-small"></span>
-				<h4>Content Strategy and Creation</h4>
-				<p>You'll know what to say and where to say it, from email newsletters, to blogs, articles, twitter tweets, and facebook status updates.</p>
-			</div>			
+				<span class="glyphicon glyphicon-signal logo-small"></span>
+				<h4>Lead Generation &amp; Marketing Automation</h4>
+				<p>A CRM-integrated website acts as your business hub, capturing all site engagement data and intelligently delivering communications to convert your leads into customers and keep them engaged.</p>
+			</div>
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-certificate logo-small"></span>
-				<h4>SEO and Analytics</h4>				
-				<p>Your Google-friendly site will be ready to ascend the search rankings with every site engagement being tracked using Google Analytics.</p>
+				<span class="glyphicon glyphicon-shopping-cart logo-small"></span>
+				<h4>Ecommerce &amp; Membership Websites</h4>
+				<p>Selling online requires that you not only have a compelling brand mission but also the marketing infrastructure to keep customers engaged enough so that you don't lose them to competitors.</p>
 			</div>	
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-wrench logo-small"></span>
-				<h4>Domains and Hosting</h4>
-				<p>You'll have full ownership and control over your domain and site hosting account after we've helped you with the initial setup (if necessary).</p>
-			</div>		
+				<span class="glyphicon glyphicon-cog logo-small"></span>
+				<h4>Audit &amp; Maintenance</h4>				
+				<p>The digital ecosystem is constantly evolving and your business must be alert to opportunities for competitive advantage by the close monitoring of your analytics and search engine ranking.
+				</p>
+			</div>	
+					
 		</div>
 	</div>
 	
-	<!-- Add Google Maps -->
+	<!-- Google Maps -->
 	<div id="googleMap" style="height:400px;width:100%;"></div>
 		<script>
 			function myMap() {
@@ -94,17 +97,18 @@
 				marker.setMap(map);
 			}
 		</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKzHpyoeHyn0VEDRVHa7-InmV9dDb1Rsg&callback=myMap"></script>	
-	</div>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKzHpyoeHyn0VEDRVHa7-InmV9dDb1Rsg&amp;callback=myMap"></script>	
+	
 
-	<footer class="bg-black table min-h100 vh-100" style="margin-bottom: 0;">
-		<div class="table-cell px2 center">
-			<div id="contact" class="container-fluid">	 
-				<h2 style="text-align: center; color: white;">Get in touch</h2>
+	<!-- Contact Footer -->
+	<footer class="bg-black table min-h100 vh-100" style="margin-bottom: 0;">	
+		<div class="table-cell paddingx2 center">
+			<div id="contact" class="container-fluid">
+				<h2 style="text-align: center; color: white;">Want to work with us?</h2>
 				<div class="col-sm-4">
-					<h3 align="">Want to work with us?</h3>
+					<h3 align="">Let's get started</h3>
 					<hr />
-					<p>Got a project in mind? We're ready to get started. Fill out our project enquiry form and we’ll get back to you.</p>
+					<p>Got a project in mind? We're ready to get started. Give us a rough idea of what you need and we'll get back to you.</p>
 					
 					<a class="typeform-share button" href="https://backspace2.typeform.com/to/Xl1Qqp" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:35px;text-align:center;margin:0;height:35px;padding:0px 23px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Fill out our project enquiry form</a>
 					
@@ -130,7 +134,7 @@
 			</div>
 			<div>
 				<div class="text-center">
-					<p>&copy; Backspace Digital 2017. A small digital design studio in Suffolk. Specialising in web design and development. View our <a href="terms.html">terms &amp; conditions</a> and <a href="privacy.html">privacy &amp; cookie policy</a>.</p>
+					<p>&copy; Backspace Digital 2017. A design and marketing studio. We create business-driven websites. View our <a href="terms.html">terms &amp; conditions</a> and <a href="privacy.html">privacy &amp; cookie policy</a>.</p>
 				</div>
 			</div>
 		</div>
@@ -138,7 +142,7 @@
 	<script>
 		$(document).ready(function(){
 			// Add smooth scrolling to all links in navbar + footer link
-			$(".navbar a, h1 a, #services a, footer a[href='#top']").on('click', function(event) {
+			$(".navbar a, h1 a, p a, footer a[href='#top']").on('click', function(event) {
 
 				// Prevent default anchor click behavior
 				event.preventDefault();

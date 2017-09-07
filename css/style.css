@@ -28,9 +28,10 @@ h4 {
 .container-fluid {
 	padding: 60px 50px;
 }
-.bg-grey {
-	background-color: #f6f6f6;
-}
+.bg-grey { background-color: #f6f6f6; }
+.bg-blue { background-color: #4885ed; }
+.bg-black { background-color: #161615; }
+
 .logo-small {
 	color: #4885ed;
 	font-size: 50px;
@@ -113,6 +114,7 @@ h4 {
 	z-index: 9999;
 	border: 0;
 	font-size: 12px !important;
+	font-weight: bold;
 	line-height: 1.42857143 !important;
 	letter-spacing: 4px;
 	border-radius: 0;
@@ -135,6 +137,20 @@ footer .glyphicon {
 	margin-bottom: 20px;
 	color: #4885ed;
 }
+
+section .about {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+section .aboutbsd p {
+	/*font-size: 2.875rem;
+	line-height: 4rem;*/
+	font-size: 2rem;
+	line-height: 3rem;
+	margin-bottom: 2.5rem;
+}
+
 .slideanim {visibility:hidden;}
 .slide {
 	animation-name: slide;
@@ -163,7 +179,7 @@ footer .glyphicon {
 		-webkit-transform: translateY(0%);
 	}
 }
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 	.col-sm-4 {
 		text-align: center;
 		margin: 25px 0;
@@ -172,18 +188,24 @@ footer .glyphicon {
 		width: 100%;
 		margin-bottom: 35px;
 	}
+	.aboutbsd p {
+		font-size: 10px;
+		line-height: 1.375em;
+	}
 }
 @media screen and (max-width: 480px) {
 	.logo {
 		font-size: 150px;
 	}
+	.aboutbsd p {
+		font-size: 10px;
+		line-height: 1.375em;
+	}
 }
-
 @media screen and (min-width: 48em) {
-	/*.h1*/ h1 {
-		/*font-size: 4rem; */
+	h1 {
 		font-size: 2.875rem;
-		line-height: 5rem;
+		line-height: 4rem;
 	}
 
 	.h2 {
@@ -198,10 +220,8 @@ footer .glyphicon {
 }
 
 @media screen and (min-width: 64em) {
-	/*.h1*/ h1  {
-		/*font-size: 6rem;*/
+	h1	{
 		font-size: 2.875rem;
-		/*line-height: 6rem;*/
 		line-height: 4rem;
 	}
 
@@ -214,22 +234,22 @@ footer .glyphicon {
 		font-size: 2rem;
 		line-height: 3rem;
 	}
-}
+}*/
 span {
-	/*font-weight: bold;*/
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
 }
-.p2 {
+/*.padding2 {
 	padding: 2rem;
-}
-.px2 {
+}*/
+.paddingx2 {
 	padding-right: 2rem;
 	padding-left: 2rem;
 }
 .table {
 	display: table;
 	width: 100%;
+	margin-bottom: 0px;
 }
 .table-cell {
 	display: table-cell;
@@ -239,9 +259,6 @@ span {
 .min-h100 { min-height: 100%; }
 .vh-100 { height: 100vh; }
 .vw-100 { width: 100vw; }
-.yellow { color: #FFEB3B; }
-.bg-yellow { background-color: #4885ed; }
-.bg-black { background-color: #161615; }
 
 .enquiry_button {
 	background: #4885ed;
@@ -317,7 +334,7 @@ ins {
 	text-decoration: none;
 	padding: 1em 1em 1em .5em;
 }
-.height20 {
+.h20 {
 	height: 20px;
 }
 .article h1 {
@@ -328,4 +345,77 @@ ins {
 .article table, th, td {
 	padding: 4px;
    	border: 1px solid #818181;
+}
+
+/*@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 2.875rem;
+		line-height: 4rem;
+	}
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	.aboutbsd p {
+		font-size: 10px;
+		line-height: 1.375em;
+	}
+}
+@media screen and (max-width: 480px) {
+	h1	{
+		font-size: 2.875rem;
+		line-height: 4rem;
+	}
+	.logo {
+		font-size: 150px;
+	}
+	.aboutbsd p {
+		font-size: 10px;
+		line-height: 1.375em;
+	}
+}*/
+@media screen and (min-width: 48em) {
+	h1 {
+		font-size: 2.875rem;
+		line-height: 4rem;
+	}
+
+	.h2 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	.h3 {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+	.aboutus p {
+		font-size: 10px;
+		line-height: 1.375em;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	h1	{
+		font-size: 2.875rem;
+		line-height: 4rem;
+	}
+
+	.h2 {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+
+	.h3 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.aboutus p {
+		font-size: 10px;
+		line-height: 1.375em;
+	}
 }
